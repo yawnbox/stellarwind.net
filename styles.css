@@ -18,7 +18,7 @@ body {
 .header {
     font-size: 1.5em;
     margin-bottom: 40px; /* Increased space under the header */
-    max-width: 500px;    /* Maximum width for the header text */
+    max-width: 700px;    /* Maximum width for the header text */
     margin-left: auto;
     margin-right: auto;
 }
