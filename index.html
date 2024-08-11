@@ -5,33 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Stellar Wind</title>
-    <script>
-        const currentDomain = window.location.hostname;
-        const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-        
-        console.log("Current Domain:", currentDomain);
-        console.log("Detected TimeZone:", timeZone);
-
-        if (timeZone.startsWith('Europe/') && currentDomain !== 'stellarwind.nl') {
-            console.log("Redirecting to NL site");
-            window.location.href = 'https://stellarwind.nl';
-        } else if (!timeZone.startsWith('Europe/') && currentDomain !== 'stellarwind.us') {
-            console.log("Redirecting to US site");
-            window.location.href = 'https://stellarwind.us';
-        } else {
-            console.log("No redirection required");
-        }
-    </script>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h3>Stellar Wind is a privacy and cybersecurity consultancy.</h3>
-            <br/>
-            For either Stellar Wind LLC (North America)
-            <br/>or Stellar Wind BV (European Union),
-            <br/>please <a href="https://signal.org" target="_blank">Signal</a> <a href="https://signal.me/#eu/FfyDuscw4eCmTFBUozVuoNq4S1VcGyFzHkIJf/jfgujEUmSaH+tOfpekY02O8PsI" target="_blank">yawnbox.01</a>
-            <br/>with inquiries.
+            <br/>Please <a href="https://signal.org" target="_blank">Signal</a> <a href="https://signal.me/#eu/FfyDuscw4eCmTFBUozVuoNq4S1VcGyFzHkIJf/jfgujEUmSaH+tOfpekY02O8PsI" target="_blank">yawnbox.01</a> with inquiries.
         </div>
     </div>
 </body>
